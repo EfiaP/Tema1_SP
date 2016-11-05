@@ -1,10 +1,10 @@
-
+   
 # Tema1_SP
 f=0.5;                                                
-t=0:0.002:10;                %t de la 0 la 10 s si rezolutie 2ms
-y=square(2*pi*f*t,25);       %am pus factor de umplere 25         
-plot(t,y+0.5);               %+0.5 pentru a seta componenta continua   
-axis([0 10 -2 2]),grid;      %limite pe axa        
+t=0:0.002:10;                                  %t de la 0 la 10 s si rezolutie 2ms
+y=square(2*pi*f*t,25);                         %am pus factor de umplere 25         
+plot(t,y+0.5);                                 %+0.5 pentru a seta componenta continua   
+axis([0 10 -2 2]),grid;                        %limite pe axa        
 title('Semnal dreptunghiular rezolutie 2ms')   %titluri pentru grafic si axe
 xlabel('timp')
 ylabel('amplitudine')
