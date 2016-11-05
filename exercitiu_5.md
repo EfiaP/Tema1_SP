@@ -1,17 +1,17 @@
 # Tema1_SP
 
-f=0.25
+f=0.25                                           %rezolutie 2ms
 t=0:0.002:10;
 A=1.5;
-y=abs(A*sin(2*pi*0.25*t));
+y=abs(A*sin(2*pi*0.25*t));                       %abs imi da valoare absoluta a fiecarui element din A*sin(2*pi*0.25*t)
 plot(t,y), grid;
-axis([0,10,-1,2])
+axis([0,10,-1,2])                                %limitele pe axe
 title('Semnal sinusoidal dublu alternanta de rezolutie 0.002')
 xlabel('Timp [s]')
 ylabel('Amplitudine [V]')
 
 
-
+                                                 %acelasi lucru pentru rezolutie 20ms
 f=0.25
 t=0:0.02:10;
 A=1.5;
