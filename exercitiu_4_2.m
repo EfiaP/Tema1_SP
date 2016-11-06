@@ -1,5 +1,5 @@
 f=0.33;
-t=0:0.002:20;
+t=0:0.02:20;                            %rezolutie 0.02
 A=0.8
 y=A*sin(2*pi*f*t);
 %y_mono=zeros(size(y));
