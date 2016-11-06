@@ -1,5 +1,6 @@
 f=0.5;                           
-
+                                                           %am incercat sa am toate rezolutiile temporare intr-un singur cod 
+                                                           %folosind subplot, dar nu stiu de ce nu merge
 t1=0:0.002:10;
 y1=0.75*square(2*pi*f*t,25);
 subplot(3,1,1),plot(t1,y1-0.25), grid;                  
