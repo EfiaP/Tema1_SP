@@ -1,6 +1,0 @@
-
-f=2;                      %am luat frecventa de 2 pentru o perioada de 0.5, 0.25 pentru fiecare nivel
-t=0:0.002:1
-y=square(2*pi*f*t);
-plot(t,y), grid;
-
