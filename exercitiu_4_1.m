@@ -1,5 +1,5 @@
-f=0.33;
-t=0:0.002:20;
+f=0.33;                                  %acelasi lucru l-am facut ca in exercitiu_4_1 dar cu 0.02 s rezolutie
+t=0:0.02:20;
 A=0.8
 y=A*sin(2*pi*f*t);
 %y_mono=zeros(size(y));
