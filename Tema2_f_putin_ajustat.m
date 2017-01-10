@@ -40,11 +40,11 @@ stem(0,c0);
 hold;
 for n = -N:2:N,                    
   cn = 2/(j*n*wo);                 % Coeficientii
-  stem(n*wo,abs(cn))               
+  stem(n,abs(cn))               
 end
 for n = -N+1:2:N-1,                
   cn = 0;                         
-  stem(n*wo,abs(cn));              
+  stem(n,abs(cn));              
 end
 
 xlabel('n')
