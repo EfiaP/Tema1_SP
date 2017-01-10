@@ -47,7 +47,7 @@ for n = -N+1:2:N-1,
   stem(n*wo,abs(cn));              
 end
 
-xlabel('w (rad/s)')
+xlabel('n')
 ylabel('c')
 title('Spectrul de amplitudine'); 
 grid;
